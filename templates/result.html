@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" type="text/css"  href="static/styles.css">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+			Spam Detector App using NLP
+		</div>
+		<h2>Spam Detector For SMS Messages</h2>
+		
+	</div>
+	</header>
+	<p style="color:blue;font-size:20;text-align: center;"><b>Results for Comment</b></p>
+	<div class="results">
+
+	{% if prediction == 1%}
+	<div class="result-box" style="border: 2px solid #e41d3e;background-color:#f70a0659;">
+		<h2 style="color:#e22424; font-weight: bold; font-size: 32px;">SPAM</h2>
+	</div>
+
+	{% elif prediction == 0%}
+	<div class="result-box" style="border: 2px solid #57e057;background-color:#cdf5a0;">
+		<h2 style="color:#45b411; font-weight: bold; font-size: 32px;">NOT A SPAM</h2>
+	</div>
+
+	{% endif %}
+
+	</div>
+
+</body>
+</html>
