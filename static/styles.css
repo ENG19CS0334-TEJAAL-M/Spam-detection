@@ -1,0 +1,22 @@
+html { font-family: sans-serif; background: #cff5f5; padding: 1rem; }
+body{ max-width: 960px; font:15px/1.5 Arial, Helvetica,sans-serif; 	padding: 0px; 	margin: 0 auto;
+	background-color: #e2c6eb; }
+
+.container{ width:100%; margin: auto; overflow: hidden;}
+
+header{ background:#9e86f5;	border-bottom:#448AFF 10px solid;height:120px; width:100%; padding-top:10px;}
+
+.main-header{ text-align:center;background-color: rgba(144, 217, 252, 0.527);	height:100px;width:100%;margin:0px;	}
+form { text-align:center;  }
+#brandname{ font-size:30px;	text-align:center; 	color: #fff;}
+p{font-size:30px;	text-align:center; color: #1b3ca8; font-weight:bolder}
+header h2{ 	text-align:center; 	font-size:30px;	color:#fff;}
+.btn-info {background-color: #8cd2f3;	height:40px; 	width:100px;} /* Blue */
+.result-box { 
+    border-radius: 15px; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+.btn-info:hover {background: #9897e4; }
+.resultss{ 	border-radius: 15px 50px;  background: #a3f7db;  padding: 20px;  width: 200px; height: 150px; }
